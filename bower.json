@@ -1,18 +1,18 @@
 {
-  "name": "ravencore-message",
-  "main": "./ravencore-message.min.js",
+  "name": "ritocore-message",
+  "main": "./ritocore-message.min.js",
   "version": "1.0.0",
-  "homepage": "https://github.com/underdarkskies/ravencore-message",
+  "homepage": "https://github.com/traysi/ritocore-message",
   "authors": [
     "BitPay"
   ],
-  "description": "Ravencoin Message Verification and Signing for ravencore",
+  "description": "Ritocoin Message Verification and Signing for ritocore",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "ravencoin",
-    "ravencore",
+    "ritocoin",
+    "ritocore",
     "btc",
     "satoshi",
     "message",

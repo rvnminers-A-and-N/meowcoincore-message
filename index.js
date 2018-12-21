@@ -1,4 +1,4 @@
-var ravencore = require('ravencore-lib');
-ravencore.Message = require('./lib/message');
+var ritocore = require('ritocore-lib');
+ritocore.Message = require('./lib/message');
 
-module.exports = ravencore.Message;
+module.exports = ritocore.Message;

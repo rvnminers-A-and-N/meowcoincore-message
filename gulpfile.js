@@ -1,8 +1,8 @@
 'use strict';
 
 var gulp = require('gulp');
-var ravencoreTasks = require('ravencore-build');
+var ritocoreTasks = require('ritocore-build');
 
-ravencoreTasks('message');
+ritocoreTasks('message');
 
 gulp.task('default', ['lint', 'coverage']);
