@@ -1,29 +1,29 @@
-# Ritocoin Message Verification and Signing for Ritocore
+# Meowcoin Message Verification and Signing for Meowcoincore
 
 
 
 
-ritocore-message adds support for verifying and signing ritocoin messages in [Node.js](http://nodejs.org/) and web browsers.
+meowcoincore-message adds support for verifying and signing meowcoin messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main ritocore repo](https://github.com/traysi/ritocore) for more information.
+See [the main meowcoincore repo](https://github.com/rvnminers-A-and-N/meowcoincore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install ritocore-message
+npm install meowcoincore-message
 ```
 
 ```sh
-bower install ritocore-message
+bower install meowcoincore-message
 ```
 
 To sign a message:
 
 ```javascript
-var ritocore = require('ritocore-lib');
-var Message = require('ritocore-message');
+var meowcoincore = require('meowcoincore-lib');
+var Message = require('meowcoincore-message');
 
-var privateKey = ritocore.PrivateKey.fromWIF('5K2DxqJ9kLFL3hF3KEWDftAig3TyAXenDxpr27PaLBieuSFo5PQ');
+var privateKey = meowcoincore.PrivateKey.fromWIF('5K2DxqJ9kLFL3hF3KEWDftAig3TyAXenDxpr27PaLBieuSFo5PQ');
 var signature = Message('hello, world').sign(privateKey);
 ```
 
@@ -37,8 +37,8 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/traysi/ritocore/blob/master/CONTRIBUTING.md) on the main ritocore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/rvnminers-A-and-N/meowcoincore/blob/master/CONTRIBUTING.md) on the main meowcoincore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/traysi/ritocore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/rvnminers-A-and-N/meowcoincore/blob/master/LICENSE).

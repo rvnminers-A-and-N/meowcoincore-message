@@ -1,4 +1,4 @@
-var ritocore = require('ritocore-lib');
-ritocore.Message = require('./lib/message');
+var meowcoincore = require('meowcoincore-lib');
+meowcoincore.Message = require('./lib/message');
 
-module.exports = ritocore.Message;
+module.exports = meowcoincore.Message;

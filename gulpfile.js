@@ -1,8 +1,8 @@
 'use strict';
 
 var gulp = require('gulp');
-var ritocoreTasks = require('ritocore-build');
+var meowcoincoreTasks = require('meowcoincore-build');
 
-ritocoreTasks('message');
+meowcoincoreTasks('message');
 
 gulp.task('default', ['lint', 'coverage']);

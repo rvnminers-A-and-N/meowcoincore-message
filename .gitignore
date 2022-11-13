@@ -3,8 +3,8 @@ coverage
 node_modules
 
 npm-debug.log
-ritocore-message.js
-ritocore-message.min.js
+meowcoincore-message.js
+meowcoincore-message.min.js
 tests.js
 
 report
